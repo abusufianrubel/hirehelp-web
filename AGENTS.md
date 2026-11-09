@@ -47,6 +47,20 @@ Do not modify other website sections unless explicitly requested.
 - Consistent branding for HireHelp.
 - Proper responsive behavior across mobile, tablet, and desktop.
 
+## Styling Rules — Tailwind CSS 4
+
+- Use native Tailwind CSS 4 utility classes for all styling.
+- Prefer existing Tailwind utility classes over custom CSS.
+- Always choose the nearest available utility class when an exact value is unavailable.
+- Avoid arbitrary values such as `w-[350px]`, `mt-[25px]`, and `bg-[#121212]`.
+- Avoid inline styles and custom CSS.
+- Do not create unnecessary CSS files.
+- Do not use `@apply` unless absolutely necessary.
+- Use responsive utilities such as `sm:`, `md:`, `lg:`, and `xl:`.
+- Use Tailwind state variants such as `hover:`, `focus:`, `active:`, and `disabled:`.
+- Use built-in gradient, shadow, border, spacing, and typography utilities.
+- Maintain consistent spacing, colors, and responsive layouts.
+
 ## Strict Development Rules
 
 1.  Preserve existing layouts and functionality outside the Navbar.
